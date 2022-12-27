@@ -25,7 +25,12 @@ const ProductItem = ({ product }) => {
           ${product.price}
         </p>
         <div className="flex items-center justify-end w-full">
-          <button className="btn btn-success text-white   ">Add to cart</button>
+          {/* <button
+            onClick={() => addToCartHandler(product)}
+            className="btn btn-success text-white   "
+          >
+            Add to cart
+          </button> */}
         </div>
       </div>
     </div>
