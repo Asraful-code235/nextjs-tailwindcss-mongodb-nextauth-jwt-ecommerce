@@ -90,7 +90,7 @@ const CartView = () => {
               <li>
                 <button
                   //   disabled
-                  onClick={() => router.push('login?redirect=/shipping')}
+                  onClick={() => router.push('login?redirect=/dashboard')}
                   className="btn btn-primary w-full"
                 >
                   Check Out
