@@ -37,6 +37,19 @@ const LoginScreen = () => {
   };
   return (
     <Layout title="Login">
+      <div className="flex bg-red-200 mb-4 flex-col justify-center items-center  w-full ">
+        <h1 className="text-2xl font-bold">
+          Use the phone and password as : [8801685478954,123456]
+        </h1>
+        <p>
+          The above mentioned is so that you can gain access to the database and
+          is only for testing purpose.
+        </p>
+        <p>
+          You can register new user but they wont have access to the dashboard
+          as it is a protected route
+        </p>
+      </div>
       <form
         onSubmit={handleSubmit(submitHandler)}
         className="mx-auto max-w-screen-md"

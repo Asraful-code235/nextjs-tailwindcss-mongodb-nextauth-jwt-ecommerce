@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="navbar bg-base-100">
+      <div className="navbar px-8 bg-base-100">
         <div className="flex-1">
           <Link href={'/'} className="btn btn-ghost normal-case text-xl">
             Ecomi
@@ -78,13 +78,7 @@ const Navbar = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a className="justify-between">
-                  Profile
-                  <span className="badge">New</span>
-                </a>
-              </li>
-              <li>
-                <a>Settings</a>
+                <Link href={'/admin/dashboard'}>Dashboard</Link>
               </li>
               <li>
                 <a href="#" onClick={logoutClickHandler}>
