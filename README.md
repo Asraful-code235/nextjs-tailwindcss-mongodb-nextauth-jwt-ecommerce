@@ -9,6 +9,7 @@ First, run the development server:
 2. Next use the command in your terminal npm install
 3. Create a mongodb database and a test schema
 4. Use this following route /api/seed to upload data to the database
+5. you can access dashboard by clicking your profile name button beside the cart icon.
 
 ```bash
 npm run dev
